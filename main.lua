@@ -10,7 +10,7 @@ local CFs = {
     head = nil
 }
 
-function userCFrameChanged() -- Stolen math from one of RobloxVR's games (https://www.roblox.com/games/924343510)
+function userCFrameChanged() -- Stolen function from one of RobloxVR's games (https://www.roblox.com/games/924343510)
 	local userRightHandCFrame = UserInputService:GetUserCFrame(Enum.UserCFrame.RightHand)
     local userLeftHandCFrame = UserInputService:GetUserCFrame(Enum.UserCFrame.LeftHand)
     local head = Camera:GetRenderCFrame()
